@@ -18,16 +18,16 @@ dia 01
 instalar vscode
 
 instalar node.js ou Isar o gerenciador de pacotes  ->usar o https://chocolatey.org/install
-	abra o powershell como admin
-	Run Get-ExecutionPolicy. If it returns Restricted, then run Set-ExecutionPolicy AllSigned or Set-ExecutionPolicy Bypass -Scope Process.
-	Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-	Instale a versao lts-long term support do node.js
-	choco install nodejs-lts
-	reiniciar o powershell
-	y
-	Node Package Manager - npm ja vem junto com o noje.js
-	npm -v
-    o YARN eh melhor que o npm -> https://yarnpkg.com/lang/en/
+abra o powershell como admin
+Run Get-ExecutionPolicy. If it returns Restricted, then run Set-ExecutionPolicy AllSigned or Set-ExecutionPolicy Bypass -Scope Process.
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+Instale a versao lts-long term support do node.js
+choco install nodejs-lts
+reiniciar o powershell
+y
+Node Package Manager - npm ja vem junto com o noje.js
+npm -v
+O YARN eh melhor que o npm -> https://yarnpkg.com/lang/en/
 	choco install yarn
 	instalar o vscode
 	instalar os plugins para o vscode?
